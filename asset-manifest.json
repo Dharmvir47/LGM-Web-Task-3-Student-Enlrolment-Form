@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/css/main.22adaa3c.css",
+    "main.js": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/js/main.b98147f5.js",
+    "static/js/787.ca8239a5.chunk.js": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/js/787.ca8239a5.chunk.js",
+    "static/media/logo.svg": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/LGM-Web-Task-3-Student-Enlrolment-Form/index.html",
+    "main.22adaa3c.css.map": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/css/main.22adaa3c.css.map",
+    "main.b98147f5.js.map": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/js/main.b98147f5.js.map",
+    "787.ca8239a5.chunk.js.map": "/LGM-Web-Task-3-Student-Enlrolment-Form/static/js/787.ca8239a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22adaa3c.css",
+    "static/js/main.b98147f5.js"
+  ]
+}
