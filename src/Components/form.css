@@ -1,0 +1,232 @@
+*{
+margin: 0;
+padding: 0;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    flex-direction: row;
+
+}
+
+.inp-form-container{
+    overflow-y:scroll;
+    border-radius: 12px;
+    padding-top: 4vh;
+    box-shadow: 4px 4px 12px rgb(196, 170, 200);
+    width: 20vw;
+    background-color: rgb(249, 215, 250);
+}
+.f-item{
+    margin: auto;
+    /* text-align: center; */
+    width: 40vw;
+    height: 80vh;
+}
+
+.inp-form{
+    padding-top: 5vh;
+}
+
+h1{
+    text-align: center;
+}
+td{
+
+    vertical-align: bottom;
+}
+.form-table{
+
+    border-spacing:1.5rem ;
+    font-family: Poppins,'sans-serif';
+    font-size: 22px;
+    margin: auto;
+}
+input{
+    font-family: Poppins,'sans-serif';
+    /* border: none; */
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    background-color: transparent;
+    vertical-align: bottom;
+    /* border: none; */
+    /* border-radius: 4px; */
+    width: 20vw;
+}
+
+.btn-div{
+    padding-top: 5vh;
+    padding-bottom:5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+}
+button{
+    border-radius: 8px;
+    border-width:1px ;
+    color: white;
+    background-image:linear-gradient(to right,rgb(138, 5, 209),rgb(139, 139, 246));
+    border-color: white;
+    border-style:solid ;
+    padding: 4px 16px ;
+    font-family: Poppins,'sans-serif';
+    /* border: none; */
+    font-size: 22px;
+}
+
+input[type="radio"]{
+    border: 10px;
+    margin: 10px;
+    width: auto;
+    
+}
+#check-box-container{
+    display: flex;
+    align-items: center;
+    /* display: inline-block; */
+}
+
+input[type="checkbox"]{
+    border: 10px;
+    margin: 10px;
+    width: auto;
+}
+
+
+/* output container style START */
+.output-container{
+    padding-top: 5vh;
+    overflow-y: scroll;
+    border-radius: 12px;
+ 
+    /* margin-left: 0; */
+    box-shadow: 4px 4px 12px rgb(196, 170, 200);
+    background-color: rgb(249, 215, 250);
+}
+
+.output-table{
+    border-spacing: 1.5rem;
+    font-family: Poppins,'sans-serif';
+    font-size: 22px;
+    margin: auto;
+}
+hr{
+    width: 100%;    
+    margin: auto;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.5px;
+    border-style: solid;
+    /* box-shadow: 0px 1px 8px rgb(154, 79, 246); */
+}
+
+/* OUTPUT BOX STYLING END */
+
+/* SCROLL BAR START */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 8px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(191, 148, 219); 
+    border-radius: 2px;
+  }
+
+  /* SCROLL BAR START */
+
+
+  /* resposiveness  */
+  @media screen and (max-width: 1060px) {
+    .flex-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 10vh;
+        flex-direction: column;
+        margin-bottom: 5vh;
+        overflow-y: visible;
+    }
+    input{
+        font-family: Poppins,'sans-serif';
+        /* border: none; */
+        font-size: 16px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom-width: 1px;
+        background-color: transparent;
+        vertical-align: bottom;
+        width: 50vw;
+    }
+    
+    .output-container{
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+         border-radius: 12px;
+    
+        box-shadow: 4px 4px 12px rgb(19 6, 170, 200);
+       
+  }
+  .output-table{
+    border-spacing: 1.5rem;
+    font-family: Poppins,'sans-serif';
+    font-size: 16px;
+    margin: auto;
+}
+.form-table{
+
+    border-spacing:1.5rem ;
+    font-family: Poppins,'sans-serif';
+    font-size: 16px;
+    margin: auto;
+
+}
+h1{
+    font-size: 20px;
+}
+button{
+    border-radius: 8px;
+    border-width:1px ;
+    color: white;
+    scale: 0.8;
+    background-image:linear-gradient(to right,rgb(138, 5, 209),rgb(139, 139, 246));
+    border-color: white;
+    border-style:solid ;
+    padding: 4px 16px ;
+    font-family: Poppins,'sans-serif';
+    /* border: none; */
+    font-size: 22px;
+}
+
+.f-item{
+    margin-top: 10vh;
+    /* text-align: center; */
+    width: 90vw;
+    height: fit-content;
+}
+#radio-box{
+    display: flex; 
+     align-items: center;
+    /* flex-direction: column; */
+}
+
+
+#check-box-container{
+    /* width: fit-content; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    /* display: inline-block; */
+}
+
+
+
+  }

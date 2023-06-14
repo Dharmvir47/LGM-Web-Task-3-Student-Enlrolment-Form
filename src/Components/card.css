@@ -1,0 +1,49 @@
+.users-container{
+  font-family: Poppins,"sans-serif";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2.5vw;
+
+}
+.card{
+  align-items: center;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  width: 35vw;
+  display: flex;
+  margin: 10px 0;
+}
+a{
+    cursor: pointer;
+}
+
+
+.card-img-top{
+
+  height: fit-content;
+  width: 130px;
+  border-radius: 12px;
+
+}
+.bgGradient{
+    color : white;
+    background-image: linear-gradient( #8000ffc5,#e100ffbf);
+}
+
+
+.card-title{
+  font-size: 26px; 
+  font-family: Poppins,"san";
+}
+
+.card-text{
+  font-size: 16px;
+  font-weight: 100;
+  font-style: oblique;
+  
+}
+.b{
+  font-style: oblique;
+}
+/* loading Animation  Start */
